@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/vovan/repos/st_minie/st_adap/st_adap.kicad_sch</source>
-    <date>mån  9 okt 2023 22:32:15</date>
+    <date>tis 10 okt 2023 06:45:49</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -163,15 +163,15 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/GND">
+    <net code="1" name="/GND1">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND2">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="2" name="/GND1">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="3" name="/GNDDETECT">
       <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
