@@ -27,3 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# JLCBCP files
+!st_adap_jlcbom.csv
+!st_adap_jlcpos.csv
