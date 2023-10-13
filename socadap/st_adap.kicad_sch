@@ -659,7 +659,7 @@
     (property "Datasheet" "~" (at 102.87 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLC#" "C2881912" (at 102.87 48.26 0)
+    (property "JLC#" "C5160804" (at 102.87 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b7a8607c-d77a-45d7-9f00-494de02fea40))
