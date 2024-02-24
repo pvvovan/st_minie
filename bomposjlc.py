@@ -55,7 +55,7 @@ dir_asm = os.path.dirname(sys.argv[1]) + '/assemble'
 files_asm = os.listdir(dir_asm)
 
 if len(files_asm) != 1:
-    print('Too many files in directory assemble')
+    print('Number of files in directory assemble is not 1')
     quit(1)
 
 filename_asm = dir_asm + '/' + files_asm[0]
